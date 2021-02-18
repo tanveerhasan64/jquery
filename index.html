@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- CSS links -->
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/media.css">
+
+  <title>Js/Jq</title>
+
+</head>
+
+<body>
+
+  <div class="container">
+      <h1>Click the button to show the alert message of Click Please</h1>
+      <button type="button" class="btn btn-info" id="cme">Click me</button>
+  </div>
+<br>
+  <div class="container">
+
+      <h2>Click the button to show/hide the alert message </h2>
+      <button type="button" class="btn btn-info" id="hide">FadeOut</button>
+      <button type="button" class="btn btn-info" id="show">FadeIn</button>
+      <button type="button" class="btn btn-info" id="toggle">FadeToggle</button>
+      <button type="button" class="btn btn-info" id="fto">FadeTo</button>
+  </div>
+  
+<br>
+      <div class="panel">Click Here!!</div>
+      <div class="content">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, modi, nulla. In, quaerat architecto dignissimos at quidem, deleniti molestias itaque aliquid soluta reprehenderit repellendus sunt. Ullam, animi nulla rem hic!</p>
+      </div>
+
+<br>
+      <div id="draggable" class="ui-widget-content">
+        <p>Drag me anywhere</p>
+      </div>
+
+<!-- function -->
+<br>
+      <!-- focus -->
+      Name: <input type="text" name="fullname"><br>
+      Email: <input type="text" name="email">
+<br>
+      <!-- on -->
+      <p>If you click on me, I will disappear.</p>
+      <p>Click me away!</p>
+      <p>Click me too!</p>
+
+<br>
+      <h3>Click or move the mouse pointer over this paragraph.</h3>
+
+<br>
+        
+        Enter your name: <input type="text" class="key">
+        <h4>Enter your name in the input field above. It will change background color on keydown and keyup.</h4>
+       
+<br>
+        <!-- scroll -->
+        <p>Try the scrollbar in the div</p>
+
+        <div class="style">
+        In my younger and more vulnerable years my father gave me some advice that I've been turning over in my mind ever since.
+        <br><br>
+        'Whenever you feel like criticizing anyone,' he told me, just remember that all the people in this world haven't had the advantages that you've had.'
+        </div>
+
+        <p>Scrolled <span class="sp1">0</span> times.</p>
+
+<br>
+        <p class="window">Window resized <span class="sp">0</span> times.</p>
+        <p class="window">Try resizing your browser window.</p>
+
+<br>
+
+        <input type="text" value="Welcome here" class="trig"><br><br>
+        <button>Trigger the select event for the input field please</button>
+<br>
+
+        <div id="progressbar"></div>
+
+        <div class="container">
+          <div id="accordion">
+            <h6>Section 1</h6>
+            <div>
+              <p>
+                Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer
+                ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit
+                amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut
+                odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.
+              </p>
+            </div>
+            <h6>Section 2</h6>
+            <div>
+              <p>
+                Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet
+                purus. Vivamus hendrerit, dolor at aliquet laoreet, mauris turpis porttitor
+                velit, faucibus interdum tellus libero ac justo. Vivamus non quam. In
+                suscipit faucibus urna.
+              </p>
+            </div>
+            <h6>Section 3</h6>
+            <div>
+              <p>
+                Nam enim risus, molestie et, porta ac, aliquam ac, risus. Quisque lobortis.
+                Phasellus pellentesque purus in massa. Aenean in pede. Phasellus ac libero
+                ac tellus pellentesque semper. Sed ac felis. Sed commodo, magna quis
+                lacinia ornare, quam ante aliquam nisi, eu iaculis leo purus venenatis dui.
+              </p>
+              <ul>
+                <li>List item one</li>
+                <li>List item two</li>
+                <li>List item three</li>
+              </ul>
+            </div>
+            <h6>Section 4</h6>
+            <div>
+              <p>
+                Cras dictum. Pellentesque habitant morbi tristique senectus et netus
+                et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in
+                faucibus orci luctus et ultrices posuere cubilia Curae; Aenean lacinia
+                mauris vel est.
+              </p>
+              <p>
+                Suspendisse eu nisl. Nullam ut libero. Integer dignissim consequat lectus.
+                Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
+                inceptos himenaeos.
+              </p>
+            </div>
+          </div>
+        </div>
+<br>
+        <!-- datepicker -->
+        <div class="container">
+          <p>Date: <input type="text" id="datepicker"></p>
+        </div>
+
+        <div id="dialog" title="Basic dialog">
+          <p>This is the default dialog which is useful for displaying information. The dialog window can be moved, resized and closed with the &apos;x&apos; icon.</p>
+        </div>
+
+
+        <div class="container">
+        <div class="toggler">
+          <div id="effect" class="newClass ui-corner-all">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque sapiente libero necessitatibus fugiat sequi minima id eius quam, a totam.
+          </div>
+        </div>
+        <button id="button" class="ui-state-default ui-corner-all">Run Effect</button></div>
+
+
+
+
+  
+
+  <!-- JS links -->
+  <script src="js/jquery-3.5.1.min.js"></script> 
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script> 
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
+
+  
+</body>
+
+
+</html>

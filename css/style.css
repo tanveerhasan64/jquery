@@ -1,0 +1,35 @@
+.panel{
+	padding: 20px 50px;
+	background-color: black;
+	font-size: 30px;
+	color: white;
+	text-align: center;
+	cursor: pointer;
+}
+.content{
+	padding: 20px 50px;
+	text-align: center;
+	background-color: teal;
+	color: white;
+	display: none;
+}
+
+#draggable { 
+	width: 150px; 
+	height: 150px; 
+	padding: 0.5em; 
+	background-color: orange;
+	text-align: center;
+}
+.style {
+	border:1px solid black;
+	width:200px;
+	height:100px;
+	overflow:scroll;
+}
+
+.toggler { width: 500px; height: 200px; position: relative; }
+  #button { padding: .5em 1em; text-decoration: none; }
+  #effect { position: relative; }
+  .newClass { width: 240px;  padding: 1em; letter-spacing: 0; margin: 0; }
+  .anotherNewClass { text-indent: 40px; letter-spacing: .2em; width: 410px; height: 100px; padding: 30px; margin: 10px; font-size: 1.1em; }
